@@ -1,0 +1,565 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Writing & compiling a contract · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="creating_contract.html" />
+    
+    
+    <link rel="prev" href="../part2/smart_contract.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../part1/blockchain.html">
+            
+                <a href="../part1/blockchain.html">
+            
+                    
+                    Blockchain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../part1/blockchain_type.html">
+            
+                <a href="../part1/blockchain_type.html">
+            
+                    
+                    Types of Blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part4/adhichain.html">
+            
+                <a href="../part4/adhichain.html">
+            
+                    
+                    Adhichain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part4/install.html">
+            
+                <a href="../part4/install.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../part5/linux.html">
+            
+                <a href="../part5/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../part5/mac.html">
+            
+                <a href="../part5/mac.html">
+            
+                    
+                    Mac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../part5/windows.html">
+            
+                <a href="../part5/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../part5/arm.html">
+            
+                <a href="../part5/arm.html">
+            
+                    
+                    ARM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part5/connect.html">
+            
+                <a href="../part5/connect.html">
+            
+                    
+                    Connecting to the network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part5/transfer.html">
+            
+                <a href="../part5/transfer.html">
+            
+                    
+                    Transfer units
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part2/smart_contract.html">
+            
+                <a href="../part2/smart_contract.html">
+            
+                    
+                    Smart Contract
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="writing_contract.html">
+            
+                <a href="writing_contract.html">
+            
+                    
+                    Writing & compiling a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="creating_contract.html">
+            
+                <a href="creating_contract.html">
+            
+                    
+                    Creating & deploying a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="interacting_contract.html">
+            
+                <a href="interacting_contract.html">
+            
+                    
+                    Interacting with contracts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="program.html">
+            
+                <a href="program.html">
+            
+                    
+                    Contract Program 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part2/applications.html">
+            
+                <a href="../part2/applications.html">
+            
+                    
+                    Applications of Smart Contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Writing & compiling a contract</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="writing-a-contract">Writing a contract</h1>
+<p>Contracts live on the blockchain in an Ethereum-specific binary format (Ethereum Virtual
+Machine (=EVM) bytecode). However, contracts are typically written in some high level
+language such as solidity and then compiled into byte code to be uploaded on the
+blockchain.</p>
+<p>Note that other languages also exist, notably serpent and LLL. Legacy Mutan (an early c-like
+language) is no longer officially maintained.</p>
+
+<p></p><h3 id="compiling-a-contract">Compiling a contract</h3><p></p>
+<p></p><p>Contracts live on the blockchain in an Ethereum-specific binary format (Ethereum Virtual
+Machine (=EVM) bytecode). However, contracts are typically written in some high level
+language such as solidity and then compiled into byte code to be uploaded on the
+blockchain.</p>
+For the frontier release, geth supports solidity compilation through system call to <code>solc</code> ,
+the command line solidity compiler by Christian R. and Lefteris K. You can try Solidity
+realtime compiler (by Christian R) or Cosmo or Mix.
+If you start up your geth node, you can check if the solidity compiler is available. This is
+what happens, if it is not:<p></p>
+<pre><code>&gt; eth.compile.solidity(&quot;&quot;)
+eth_compileSolidity method not available: solc (solidity compiler) not found
+at InvalidResponse (&lt;anonymous&gt;:-57465:-25)
+at send (&lt;anonymous&gt;:-115373:-25)
+at solidity (&lt;anonymous&gt;:-104109:-25)
+at &lt;anonymous&gt;:1:1
+</code></pre><p>After you found a way to install <code>solc</code> , you make sure it&apos;s in the path. If <code>eth.getCompilers()</code>
+still does not find it (returns an empty array), you can set a custom path to the <code>solc</code>
+executable on the command line using th <code>solc</code> flag.</p>
+<pre><code>geth --datadir ~/frontier/00 --solc /usr/local/bin/solc --natspec
+</code></pre><p>You can also set this option at runtime via the console:</p>
+<pre><code>&gt; admin.setSolc(&quot;/usr/local/bin/solc&quot;)
+solc v0.9.32
+Solidity Compiler: /usr/local/bin/solc
+Christian &lt;c@ethdev.com&gt; and Lefteris &lt;lefteris@ethdev.com&gt; (c) 2014-2015
+true
+</code></pre><p>Let us take this simple contract source:</p>
+<pre><code>&gt; source = &quot;contract test { function multiply(uint a) returns(uint d) { return a * 7; } }&quot;
+</code></pre><p>This contract offers a unary method: called with a positive integer <code>a</code> , it returns <code>a * 7</code> .<br>
+You are ready to compile solidity code in the <code>geth</code> JS console using <code>eth.compile.solidity</code> :</p>
+<pre><code>&gt; contract = eth.compile.solidity(source).test
+{
+code: &apos;605280600c6000396000f3006000357c010000000000000000000000000000000000000000000000000000000090048063c6888fa114602e57005b60376004356041565b8060005260206000f35b6000600782029050604d565b91905056&apos;
+info: {
+language: &apos;Solidity&apos;,
+languageVersion: &apos;0&apos;,
+compilerVersion: &apos;0.9.13&apos;,
+abiDefinition: [{
+constant: false,
+inputs: [{
+name: &apos;a&apos;,
+type: &apos;uint256&apos;
+} ],
+name: &apos;multiply&apos;,
+outputs: [{
+name: &apos;d&apos;,
+type: &apos;uint256&apos;
+} ],
+type: &apos;function&apos;
+} ],
+userDoc: {
+methods: {
+}
+},
+developerDoc: {
+methods: {
+}
+},
+source: &apos;contract test { function multiply(uint a) returns(uint d) { return a * 7; } }&apos;
+}
+}
+</code></pre><p>The compiler is also available via RPC and therefore via web3.js to any in-browser &#xD0;app
+connecting to <code>geth</code> via RPC/IPC.</p>
+<p>The following example shows how you interface <code>geth</code> via JSON-RPC to use the compiler.</p>
+<pre><code>./geth --datadir ~/eth/ --loglevel 6 --logtostderr=true --rpc --rpcport 8100 --rpccorsdomain &apos;*&apos; --mine console 2&gt;&gt; ~/eth/eth.log
+curl -X POST --data &apos;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;eth_compileSolidity&quot;,&quot;params&quot;:[&quot;contract test { function multiply(uint a) returns(uint d) { return a * 7; } }&quot;],&quot;id&quot;:1}&apos; http://127.0.0.1:8100
+</code></pre><p>The compiler output for one source will give you contract objects each representing a single
+contract. The actual return value of <code>eth.compile.solidity</code> is a map of contract name --
+contract object pairs. Since our contract&apos;s name is <code>test</code> ,
+<code>eth.compile.solidity(source).test</code> will give you the contract object for the test contract
+containing the following fields:<br></p>
+<ul>
+<li><strong>code</strong> : the compiled EVM code</li>
+<li><strong>info<strong> : the rest of the metainfo the compiler outputs</strong></strong></li>
+<ul><li><strong>source</strong>: the source code</li>
+<li><strong>language</strong> : contract language (Solidity, Serpent, LLL)</li>
+<li><strong>languageVersion</strong> : contract language version</li>
+<li><strong>compilerVersion</strong> : compiler version</li>
+<li><strong>abiDefinition</strong> : Application Binary Interface Definition</li>
+<li><strong>userDoc</strong> : NatSpec user Doc</li>
+<li><strong>developerDoc</strong> : NatSpec developer Doc</li>
+</ul>
+
+
+<p></p><p>The immediate structuring of the compiler output (into code and info ) reflects the two
+very different <strong>paths of deployment</strong>. The compiled EVM code is sent off to the blockchain
+with a contract creation transaction while the rest (info) will ideally live on the decentralised
+cloud as publicly verifiable metadata complementing the code on the blockchain.</p><p></p>
+<p></p><p>If your source contains multiple contracts, the output will contain an entry for each contact,
+the corresponding contract info object can be retrieved with the name of the contract as
+attribute name. You can try this by inspecting the most current GlobalRegistrar code:</p><p></p>
+<pre><code>contracts = eth.compile.solidity(globalRegistrarSrc)
+</code></pre></ul>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../part2/smart_contract.html" class="navigation navigation-prev " aria-label="Previous page: Smart Contract">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="creating_contract.html" class="navigation navigation-next " aria-label="Next page: Creating & deploying a contract">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Writing & compiling a contract","level":"1.4.1","depth":2,"next":{"title":"Creating & deploying a contract","level":"1.4.2","depth":2,"path":"part6/creating_contract.md","ref":"part6/creating_contract.md","articles":[]},"previous":{"title":"Smart Contract","level":"1.4","depth":1,"path":"part2/smart_contract.md","ref":"part2/smart_contract.md","articles":[{"title":"Writing & compiling a contract","level":"1.4.1","depth":2,"path":"part6/writing_contract.md","ref":"part6/writing_contract.md","articles":[]},{"title":"Creating & deploying a contract","level":"1.4.2","depth":2,"path":"part6/creating_contract.md","ref":"part6/creating_contract.md","articles":[]},{"title":"Interacting with contracts","level":"1.4.3","depth":2,"path":"part6/interacting_contract.md","ref":"part6/interacting_contract.md","articles":[]},{"title":"Contract Program 1","level":"1.4.4","depth":2,"path":"part6/program.md","ref":"part6/program.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part6/writing_contract.md","mtime":"2018-10-14T07:25:43.185Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-19T04:57:10.246Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

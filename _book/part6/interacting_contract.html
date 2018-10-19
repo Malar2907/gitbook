@@ -1,0 +1,491 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Interacting with contracts · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="program.html" />
+    
+    
+    <link rel="prev" href="creating_contract.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../part1/blockchain.html">
+            
+                <a href="../part1/blockchain.html">
+            
+                    
+                    Blockchain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../part1/blockchain_type.html">
+            
+                <a href="../part1/blockchain_type.html">
+            
+                    
+                    Types of Blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part4/adhichain.html">
+            
+                <a href="../part4/adhichain.html">
+            
+                    
+                    Adhichain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part4/install.html">
+            
+                <a href="../part4/install.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../part5/linux.html">
+            
+                <a href="../part5/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../part5/mac.html">
+            
+                <a href="../part5/mac.html">
+            
+                    
+                    Mac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../part5/windows.html">
+            
+                <a href="../part5/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../part5/arm.html">
+            
+                <a href="../part5/arm.html">
+            
+                    
+                    ARM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part5/connect.html">
+            
+                <a href="../part5/connect.html">
+            
+                    
+                    Connecting to the network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part5/transfer.html">
+            
+                <a href="../part5/transfer.html">
+            
+                    
+                    Transfer units
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part2/smart_contract.html">
+            
+                <a href="../part2/smart_contract.html">
+            
+                    
+                    Smart Contract
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="writing_contract.html">
+            
+                <a href="writing_contract.html">
+            
+                    
+                    Writing & compiling a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="creating_contract.html">
+            
+                <a href="creating_contract.html">
+            
+                    
+                    Creating & deploying a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3" data-path="interacting_contract.html">
+            
+                <a href="interacting_contract.html">
+            
+                    
+                    Interacting with contracts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="program.html">
+            
+                <a href="program.html">
+            
+                    
+                    Contract Program 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part2/applications.html">
+            
+                <a href="../part2/applications.html">
+            
+                    
+                    Applications of Smart Contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Interacting with contracts</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="interacting-with-contracts">Interacting with contracts</h1>
+<p><code>eth.contract</code> can be used to define a contract class that will comply with the contract
+interface as described in its ABI definition.</p>
+<pre><code>var Multiply7 = eth.contract(contract.info.abiDefinition);
+var myMultiply7 = Multiply7.at(address);
+</code></pre><p>Now all the function calls specified in the abi are made available on the contract instance.
+You can just call those methods on the contract instance and chain <code>sendTransaction(3,
+{from: address})</code> or <code>call(3)</code> to it. The difference between the two is that call performs a
+&quot;dry run&quot; locally, on your computer, while <code>sendTransaction</code> would actually submit your
+transaction for inclusion in the block chain and the results of its execution will eventually
+become part of the global consensus. In other words, use <code>call</code> , if you are interested only in
+the return value and use <code>sendTransaction</code> if you only care about &quot;side effects&quot; on the state
+of the contract.
+In the example above, there are no side effects, therefore <code>sendTransaction</code> only burns gas
+and increases the entropy of the universe. All &quot;useful&quot; functionality is exposed by <code>call</code> :</p>
+<pre><code>myMultiply7.multiply.call(6)
+42
+</code></pre><p>Now suppose this contract is not yours, and you would like documentation or look at the
+source code. This is made possible by making available the contract info bundle and register
+it in the blockchain. The <code>admin</code> API provides convenience methods to fetch this bundle for
+any contract that chose to register. To see how it works, read about Contract Metadata or
+read the contract info deployment section of this document.</p>
+<pre><code>// get the contract info for contract address to do manual verification
+var info = admin.getContractInfo(address) // lookup, fetch, decode
+var source = info.source;
+var abiDef = info.abiDefinition
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="creating_contract.html" class="navigation navigation-prev " aria-label="Previous page: Creating & deploying a contract">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="program.html" class="navigation navigation-next " aria-label="Next page: Contract Program 1">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Interacting with contracts","level":"1.4.3","depth":2,"next":{"title":"Contract Program 1","level":"1.4.4","depth":2,"path":"part6/program.md","ref":"part6/program.md","articles":[]},"previous":{"title":"Creating & deploying a contract","level":"1.4.2","depth":2,"path":"part6/creating_contract.md","ref":"part6/creating_contract.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part6/interacting_contract.md","mtime":"2018-10-14T08:06:10.380Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-19T04:57:10.246Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,609 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Contract Program 1 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../part2/applications.html" />
+    
+    
+    <link rel="prev" href="interacting_contract.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../part1/blockchain.html">
+            
+                <a href="../part1/blockchain.html">
+            
+                    
+                    Blockchain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../part1/blockchain_type.html">
+            
+                <a href="../part1/blockchain_type.html">
+            
+                    
+                    Types of Blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part4/adhichain.html">
+            
+                <a href="../part4/adhichain.html">
+            
+                    
+                    Adhichain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part4/install.html">
+            
+                <a href="../part4/install.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../part5/linux.html">
+            
+                <a href="../part5/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../part5/mac.html">
+            
+                <a href="../part5/mac.html">
+            
+                    
+                    Mac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../part5/windows.html">
+            
+                <a href="../part5/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../part5/arm.html">
+            
+                <a href="../part5/arm.html">
+            
+                    
+                    ARM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part5/connect.html">
+            
+                <a href="../part5/connect.html">
+            
+                    
+                    Connecting to the network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part5/transfer.html">
+            
+                <a href="../part5/transfer.html">
+            
+                    
+                    Transfer units
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part2/smart_contract.html">
+            
+                <a href="../part2/smart_contract.html">
+            
+                    
+                    Smart Contract
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="writing_contract.html">
+            
+                <a href="writing_contract.html">
+            
+                    
+                    Writing & compiling a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="creating_contract.html">
+            
+                <a href="creating_contract.html">
+            
+                    
+                    Creating & deploying a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="interacting_contract.html">
+            
+                <a href="interacting_contract.html">
+            
+                    
+                    Interacting with contracts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="program.html">
+            
+                <a href="program.html">
+            
+                    
+                    Contract Program 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part2/applications.html">
+            
+                <a href="../part2/applications.html">
+            
+                    
+                    Applications of Smart Contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Contract Program 1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="smart-contract-program">Smart Contract Program</h1>
+<p></p><h3 id="your-first-citizen-the-greeter">Your first citizen: the greeter</h3><p></p>
+<p></p><p>Now that you&#x2019;ve mastered the basics of Ethereum, let&#x2019;s move into your first serious contract.
+The Frontier is a big open territory and sometimes you might feel lonely, so our first order of
+business will be to create a little automatic companion to greet you whenever you feel lonely.
+We&#x2019;ll call him the &#x201C;Greeter&#x201D;.</p><p></p>
+<p></p><p>The Greeter is an intelligent digital entity that lives on the blockchain and is able to have
+conversations with anyone who interacts with it, based on its input. It might not be a talker,
+but it&#x2019;s a great listener. Here is its code:</p><p></p>
+<pre><code>contract mortal {
+/* Define variable owner of the type address*/
+address owner;
+/* this function is executed at initialization and sets the owner of the contract */
+function mortal() { owner = msg.sender; }
+/* Function to recover the funds on the contract */
+function kill() { if (msg.sender == owner) suicide(owner); }
+}
+contract greeter is mortal {
+/* define variable greeting of the type string */
+string greeting;
+/* this runs when the contract is executed */
+function greeter(string _greeting) public {
+greeting = _greeting;
+}
+/* main function */
+function greet() constant returns (string) {
+return greeting;
+}
+}
+</code></pre><p></p><p>You&apos;ll notice that there are two different contracts in this code: &quot;mortal&quot; and &quot;greeter&quot;. This is
+because Solidity (the high level contract language we are using) has inheritance, meaning
+that one contract can inherit characteristics of another. This is very useful to simplify coding
+as common traits of contracts don&apos;t need to be rewritten every time, and all contracts can be
+written in smaller, more readable chunks. So by just declaring that greeter is mortal you
+inherited all characteristics from the &quot;mortal&quot; contract and kept the greeter code simple and
+easy to read.</p><p></p>
+<p></p><p>The inherited characteristic &quot;mortal&quot; simply means that the greeter contract can be killed by
+its owner, to clean up the blockchain and recover funds locked into it when the contract is no
+longer needed. Contracts in ethereum are, by default, immortal and have no owner, meaning
+that once deployed the author has no special privileges anymore. Consider this before
+deploying.</p><p></p>
+<p></p><h3 id="installing-a-compiler">Installing a compiler</h3><p></p>
+<p></p><p>Before you are able to Deploy it though, you&apos;ll need two things: the compiled code, and the
+Application Binary Interface, which is a sort of reference template that defines how to
+interact with the contract.</p><p></p>
+<p></p><p>The first you can get by using a compiler. You should have a solidity compiler built in on your
+geth console. To test it, use this command:</p><p></p>
+<pre><code>eth.getCompilers()
+</code></pre><p>If you have it installed, it should output something like this:</p>
+<pre><code>[&apos;Solidity&apos; ]
+</code></pre><p>If instead the command returns an error, then you need to install it.</p>
+<p></p><h3 id="using-an-online-compiler">Using an online compiler</h3>
+If you don&apos;t have solC installed, we have a online solidity compiler available. But be aware
+that <strong>if the compiler is compromised, your contract is not safe.</strong> For this reason, if you
+want to use the online compiler we encourage you to host your own.<p></p>
+<pre><code>Install SolC on Ubuntu
+Press control+c to exit the console (or type exit) and go back to the command line. Open the
+terminal and execute these commands:
+sudo add-apt-repository ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install solc
+which solc
+</code></pre><p>Take note of the path given by the last line, you&apos;ll need it soon</p>
+<p></p><h3 id="install-solc-on-mac-osx">Install SolC on Mac OSX</h3>
+You need brew in order to install on your mac<p></p>
+<pre><code>brew install cpp-ethereum
+brew linkapps cpp-ethereum
+which solc
+</code></pre><p>Take note of the path given by the last line, you&apos;ll need it soon.</p>
+<p></p><h3 id="install-solc-on-windows">Install SolC on Windows</h3>
+You need chocolatey in order to install solc.<p></p>
+<pre><code>cinst -pre solC-stable
+</code></pre><p>Windows is more complicated than that, you&apos;ll need to wait a bit more.</p>
+<p></p><p>If you have the SolC Solidity Compiler installed, you need now reformat by removing spaces
+so it fits into a string variable</p><p></p>
+<p></p><h3 id="compile-from-source">Compile from source</h3><p></p>
+<pre><code>git clone https://github.com/ethereum/cpp-ethereum.git
+mkdir cpp-ethereum/build
+cd cpp-ethereum/build
+cmake -DJSONRPC=OFF -DMINER=OFF -DETHKEY=OFF -DSERPENT=OFF -DGUI=OFF -DTESTS=OFF -DJSCONSOLE=OFF ..
+make -j4
+make install
+which solc
+Linking yo
+</code></pre><p></p><h3 id="linking-your-compiler-in-geth">Linking your compiler in Geth</h3>
+Now go back to the console and type this command to install solC, replacing path/to/solc to
+the path that you got on the last command you did:<p></p>
+<pre><code>admin.setSolc(&quot;path/to/solc&quot;)
+</code></pre><p>Now type again:</p>
+<pre><code>eth.getCompilers()
+</code></pre><p>If you now have solC installed, then congratulations, you can keep reading. If you don&apos;t, then
+go to our forums or subreddit and berate us on failing to make the process easier.</p>
+<p></p><h3 id="compiling-your-contract">Compiling your contract</h3>
+If you have the compiler installed, you need now reformat your contract by removing linebreaks
+so it fits into a string variable (there are some online tools that will do this):<p></p>
+<pre><code>var greeterSource = &apos;contract mortal { address owner; function mortal() { owner = msg.sender; } function kill() { if (msg.sender == owner) suicide(owner); } } contract greeter is mortal { string greeting; function greeter(string _greeting) public { greeting = _greeting; } function greet() constant returns (string) { return greeting; } }&apos;
+var greeterCompiled = web3.eth.compile.solidity(greeterSource)
+You have now compiled your code. Now you need to get it ready for deployment, this
+includes setting some variables up, like what is your greeting. Edit the first line below to
+something more interesting than &apos;Hello World!&quot; and execute these commands:
+var _greeting = &quot;Hello World!&quot;
+var greeterContract = web3.eth.contract(greeterCompiled.greeter.info.abiDefinition);
+var greeter = greeterContract.new(_greeting,{from:web3.eth.accounts[0], data: greeterCompiled.greeter.code, gas: 1000000}, function(e, contract){
+if(!e) {
+if(!contract.address) {
+console.log(&quot;Contract transaction send: TransactionHash: &quot; + contract.transactionHash + &quot; waiting to be mined...&quot;);
+} else {
+console.log(&quot;Contract mined! Address: &quot; + contract.address);
+console.log(contract);
+}
+}
+})
+</code></pre><p></p><h3 id="using-the-online-compiler">Using the online compiler</h3>
+If you don&apos;t have solC installed, you can simply use the online compiler. Copy the source
+code above to the online solidity compiler and then your compiled code should appear on
+the left pane. Copy the code on the box labeled Geth deploy to a text file. Now change the
+first line to your greeting:<p></p>
+<pre><code>var _greeting = &quot;Hello World!
+</code></pre><p>Now you can paste the resulting text on your geth window. Wait up to thirty seconds and
+you&apos;ll see a message like this:</p>
+<pre><code>Contract mined! address: 0xdaa24d02bad7e9d6a80106db164bad9399a0423e
+</code></pre><p>You will probably be asked for the password you picked in the beginning, because you need
+to pay for the gas costs to deploying your contract. This contract is estimated to need 172
+thousand gas to deploy (according to the online solidity compiler), at the time of writing, gas
+on the test net is priced at 1 to 10 microethers per unit of gas (nicknamed &quot;szabo&quot; = 1
+followed by 12 zeroes in wei). To know the latest price in ether all you can see the latest gas
+prices at the network stats page and multiply both terms.</p>
+<p></p><p><strong>Notice that the cost is not paid to the ethereum developers, instead it goes to the
+Miners, people who are running computers who keep the network running. Gas price
+is set by the market of the current supply and demand of computation. If the gas
+prices are too high, you can be a miner and lower your asking price.<strong></strong></strong></p><p></p>
+<p></p><p>After less than a minute, you should have a log with the contract address, this means you&apos;ve
+sucessfully deployed your contract. You can verify the deployed code (compiled) by using
+this command:</p><p></p>
+<pre><code>eth.getCode(greeter.address)
+</code></pre><p>If it returns anything other than &quot;0x&quot; then congratulations! Your little Greeter is live! If the
+contract is created again (by performing another eth.sendTransaction), it will be published to
+a new address.</p>
+<p></p><h3 id="run-the-greeter">Run the Greeter</h3>
+In order to call your bot, just type the following command in your terminal:<p></p>
+<pre><code>greeter.greet();
+</code></pre><p>Since this call changes nothing on the blockchain, it returns instantly and without any gas
+cost. You should see it return your greeting:</p>
+<pre><code>&apos;Hello World!&apos;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="interacting_contract.html" class="navigation navigation-prev " aria-label="Previous page: Interacting with contracts">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../part2/applications.html" class="navigation navigation-next " aria-label="Next page: Applications of Smart Contract">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Contract Program 1","level":"1.4.4","depth":2,"next":{"title":"Applications of Smart Contract","level":"1.5","depth":1,"path":"part2/applications.md","ref":"part2/applications.md","articles":[]},"previous":{"title":"Interacting with contracts","level":"1.4.3","depth":2,"path":"part6/interacting_contract.md","ref":"part6/interacting_contract.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part6/program.md","mtime":"2018-10-14T08:26:12.916Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-19T04:57:10.246Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

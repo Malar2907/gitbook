@@ -1,0 +1,7 @@
+# Types of Blockchain
+<h3>Public blockchains:</h3>
+<p>A public blockchain has absolutely no access restrictions. Anyone with an internet connection can send transactions to it as well as become a validator (i.e., participate in the execution of a consensus protocol ). Usually, such networks offer economic incentives for those who secure them and utilize some type of a  Proof of Stake or Proof of Work algorithm.Some of the largest, most known public blockchains are Bitcoin and Ethereum.</p>
+<h3>Private blockchains:</h3>
+<p>A private blockchain is permissioned. One cannot join it unless invited by the network administrators. Participant and validator access is restricted.This type of blockchains can be considered a middle-ground for companies that are interested in the blockchain technology in general but are not comfortable with a level of control offered by public networks. Typically, they seek to incorporate blockchain into their accounting and record-keeping procedures without sacrificing autonomy and running the risk of exposing sensitive data to the public internet.</p>
+<h3>Consortium blockchains:</h3>
+<p>A consortium blockchain is often said to be semi-decentralized. It, too, is permissioned but instead of a single organization controlling it, a number of companies might each operate a node on such a network. The administrators of a consortium chain restrict users’ reading rights as they see fit and only allow a limited set of trusted nodes to execute a consensus protocol.</p>
