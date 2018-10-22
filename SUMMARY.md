@@ -15,6 +15,7 @@
     * [Creating & deploying a contract](part6/creating_contract.md)
     * [Interacting with contracts](part6/interacting_contract.md)
     * [Contract Program 1](part6/program.md)
+    * [Contract Program 2](part6/program2.md)
 * [Applications of Smart Contract](part2/applications.md)
 
 

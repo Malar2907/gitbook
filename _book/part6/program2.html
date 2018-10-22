@@ -1,0 +1,943 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Contract Program 2 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../part2/applications.html" />
+    
+    
+    <link rel="prev" href="program.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../part1/blockchain.html">
+            
+                <a href="../part1/blockchain.html">
+            
+                    
+                    Blockchain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../part1/blockchain_type.html">
+            
+                <a href="../part1/blockchain_type.html">
+            
+                    
+                    Types of Blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part4/adhichain.html">
+            
+                <a href="../part4/adhichain.html">
+            
+                    
+                    Adhichain
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part4/install.html">
+            
+                <a href="../part4/install.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../part5/linux.html">
+            
+                <a href="../part5/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../part5/mac.html">
+            
+                <a href="../part5/mac.html">
+            
+                    
+                    Mac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../part5/windows.html">
+            
+                <a href="../part5/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../part5/arm.html">
+            
+                <a href="../part5/arm.html">
+            
+                    
+                    ARM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part5/connect.html">
+            
+                <a href="../part5/connect.html">
+            
+                    
+                    Connecting to the network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part5/transfer.html">
+            
+                <a href="../part5/transfer.html">
+            
+                    
+                    Transfer units
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part2/smart_contract.html">
+            
+                <a href="../part2/smart_contract.html">
+            
+                    
+                    Smart Contract
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="writing_contract.html">
+            
+                <a href="writing_contract.html">
+            
+                    
+                    Writing & compiling a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="creating_contract.html">
+            
+                <a href="creating_contract.html">
+            
+                    
+                    Creating & deploying a contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="interacting_contract.html">
+            
+                <a href="interacting_contract.html">
+            
+                    
+                    Interacting with contracts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="program.html">
+            
+                <a href="program.html">
+            
+                    
+                    Contract Program 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.5" data-path="program2.html">
+            
+                <a href="program2.html">
+            
+                    
+                    Contract Program 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part2/applications.html">
+            
+                <a href="../part2/applications.html">
+            
+                    
+                    Applications of Smart Contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Contract Program 2</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="smart-contract-program">Smart Contract Program</h1>
+<p></p><h3 id="step-1-introducing-two-parties-to-smart-contract">Step 1: Introducing two parties to smart contract</h3><p></p>
+<p>Any smart contract is concluded by two sides. Since this smart contract is for a marketplace, two roles are going to be there:</p>
+<p>
+<li>The <strong>client</strong>, who needs to get some home service done.</li>
+<li>The <strong>tasker</strong>, who completes a task and gets paid for it.</li>
+</p>
+<p>A client pays a tasker for fulfilling a task, so you should add a payment amount to the smart contract as well;  called here as <strong>payAmount</strong>.</p>
+
+<p>Before coding these two roles and the payment amount into the smart contract, an automated unit test with JavaScript is written:</p>
+
+<pre><code>const OddjobPayContract = artifacts.require(&apos;OddjobPayContract&apos;)
+
+contract(&apos;OddjobPayContract&apos;, accounts =&gt; {
+  const client   = accounts[1]
+  const tasker   = accounts[2]
+
+  describe(&apos;client property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.client()).to.equal(client)
+    })
+  })
+
+  describe(&apos;tasker property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.tasker()).to.equal(tasker)
+    })
+  })
+
+  describe(&apos;payAmount property&apos;, () =&gt; {
+    it(&apos;is initialized with 0 after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      const payAmount = await deployedContract.payAmount()
+      expect(payAmount.toNumber()).to.equal(0)
+    })
+  })
+})
+</code></pre><p>Now it&#x2019;s time to implement exactly the same logic to write the actual smart contract with Solidity:</p>
+
+<pre><code>contract OddjobPayContract {
+  address public client;
+  address public tasker;
+
+  uint256 public payAmount;
+
+  constructor (address _client, address _tasker) public {
+    client = _client;
+    tasker = _tasker;
+
+    payAmount = 0;
+  }
+}
+</code></pre><p>To find out whether  Solidity code is correct, run the test in Truffle using this code </p>
+
+<pre><code>const OddjobPayContract = artifacts.require(&apos;OddjobPayContract&apos;)
+
+module.exports = (deployer, _, accounts) =&gt; {
+  deployer.deploy(OddjobPayContract, accounts[1], accounts[2], { from: accounts[0] })
+}
+</code></pre><p></p><h3 id="step-2-enabling-a-client-to-transfer-money-to-a-smart-contract">Step 2: Enabling a client to transfer money to a smart contract</h3><p></p>
+<p>A smart contract acts like a separate account that can either send money to a tasker or send it back to a client. But first, a client must be able to send money to the smart contract. At this step, you need to add this functionality to the smart contract.</p>
+
+<p>As usual, start from updating the test file. You should specify that nobody but a client can transfer money to a smart contract and that it&#x2019;s impossible for anyone to increase the payAmount:</p>
+
+<pre><code>const OddjobPayContract = artifacts.require(&apos;OddjobPayContract&apos;)
+
+const Web3 = require(&apos;web3&apos;)
+
+const web3 = new Web3(
+  new Web3.providers.HttpProvider(
+    &apos;http://localhost:8545&apos;
+  )
+)
+
+const getRandomItem = array =&gt; (
+  array[Math.floor(Math.random() * array.length)]
+)
+
+contract(&apos;OddjobPayContract&apos;, accounts =&gt; {
+  const client   = accounts[1]
+  const tasker   = accounts[2]
+
+  const unknownAccount = getRandomItem(accounts.slice(3))
+
+  describe(&apos;client property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.client()).to.equal(client)
+    })
+  })
+
+  describe(&apos;tasker property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.tasker()).to.equal(tasker)
+    })
+  })
+
+  describe(&apos;payAmount property&apos;, () =&gt; {
+    it(&apos;is initialized with 0 after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      const payAmount = await deployedContract.payAmount()
+      expect(payAmount.toNumber()).to.equal(0)
+    })
+  })
+
+  describe(&apos;payable fallback&apos;, () =&gt; {
+    describe(&apos;msg.sender validation&apos;, () =&gt; {
+      it(&apos;deployer can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: deployer, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;tasker can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: tasker, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;unknown account can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: unknownAccount, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;only client can increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: client, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done()).catch(() =&gt; done(&apos;e&apos;))
+        })()
+      })
+    })
+
+    it(&apos;increases pay amount&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+
+      const payAmountWeiBefore = await deployedContract.payAmount()
+      const payAmountBefore = web3.fromWei(payAmountWeiBefore, &apos;ether&apos;)
+
+      await deployedContract.sendTransaction({
+        from: client, value: web3.toWei(5, &apos;ether&apos;)
+      })
+
+      const payAmountWeiAfter = await deployedContract.payAmount()
+      const payAmountAfter = web3.fromWei(payAmountWeiAfter, &apos;ether&apos;)
+
+      expect(payAmountAfter - payAmountBefore).to.equal(5)
+    })
+  })
+})
+</code></pre><p>Now update the smart contract by adding the code that allows a client to transfer money to it:</p>
+
+<pre><code>contract OddjobPayContract {
+  address public client;
+  address public tasker;
+
+  uint256 public payAmount;
+
+  constructor (address _client, address _tasker) public {
+    client = _client;
+    tasker = _tasker;
+
+    payAmount = 0;
+  }
+
+  function () public payable {
+    require(client == msg.sender);
+    payAmount += msg.value;
+  }
+}
+</code></pre><p></p><h3 id="step-3-allowing-a-smart-contract-to-transfer-money-to-a-tasker">Step 3: Allowing a smart contract to transfer money to a tasker</h3><p></p>
+<p>Finally, your smart contract must be able to automatically send money to a tasker as soon as a client confirms that the task has been completed. To implement this functionality, we need to introduce a new role in the smart contract &#x2013; a <strong>deployer</strong>, which is a web application on blockchain marketplace &#x2013; and specify that only a deployer can initiate a transfer of money to a tasker. Also, make sure that the payAmount gets nullified once it has been sent to a tasker.</p>
+
+<p>Let&#x2019;s first implement all this logic in tests; you have to make it impossible for a deployer or any other third party to trigger a payAmount transfer from the smart contract to a tasker. At this step, you should get a long and detailed test file looking something like this:</p>
+
+<pre><code>const OddjobPayContract = artifacts.require(&apos;OddjobPayContract&apos;)
+
+const Web3 = require(&apos;web3&apos;)
+
+const web3 = new Web3(
+  new Web3.providers.HttpProvider(
+    &apos;http://localhost:8545&apos;
+  )
+)
+
+const getRandomItem = array =&gt; (
+  array[Math.floor(Math.random() * array.length)]
+)
+
+contract(&apos;OddjobPayContract&apos;, accounts =&gt; {
+  const deployer = accounts[0]
+  const client   = accounts[1]
+  const tasker   = accounts[2]
+
+  const unknownAccount = getRandomItem(accounts.slice(3))
+
+  describe(&apos;deployer property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.deployer()).to.equal(deployer)
+    })
+  })
+
+  describe(&apos;client property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.client()).to.equal(client)
+    })
+  })
+
+  describe(&apos;tasker property&apos;, () =&gt; {
+    it(&apos;is initialized after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      expect(await deployedContract.tasker()).to.equal(tasker)
+    })
+  })
+
+  describe(&apos;payAmount property&apos;, () =&gt; {
+    it(&apos;is initialized with 0 after deployment&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+      const payAmount = await deployedContract.payAmount()
+      expect(payAmount.toNumber()).to.equal(0)
+    })
+  })
+
+  describe(&apos;payable fallback&apos;, () =&gt; {
+    describe(&apos;msg.sender validation&apos;, () =&gt; {
+      it(&apos;deployer can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: deployer, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;tasker can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: tasker, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;unknown account can not increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: unknownAccount, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done(&apos;e&apos;)).catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;only client can increase pay amount&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendTransaction({
+            from: client, value: web3.toWei(5, &apos;ether&apos;)
+          }).then(() =&gt; done()).catch(() =&gt; done(&apos;e&apos;))
+        })()
+      })
+    })
+
+    it(&apos;increases pay amount&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.deployed()
+
+      const payAmountWeiBefore = await deployedContract.payAmount()
+      const payAmountBefore = web3.fromWei(payAmountWeiBefore, &apos;ether&apos;)
+
+      await deployedContract.sendTransaction({
+        from: client, value: web3.toWei(5, &apos;ether&apos;)
+      })
+
+      const payAmountWeiAfter = await deployedContract.payAmount()
+      const payAmountAfter = web3.fromWei(payAmountWeiAfter, &apos;ether&apos;)
+
+      expect(payAmountAfter - payAmountBefore).to.equal(5)
+    })
+  })
+
+  describe(&apos;sendPayAmountToTasker action&apos;, () =&gt; {
+    describe(&apos;msg.sender validation&apos;, () =&gt; {
+      it(&apos;can be triggered by deployer&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendPayAmountToTasker({ from: deployer })
+            .then(() =&gt; done())
+            .catch(() =&gt; done(&apos;e&apos;))
+        })()
+      })
+
+      it(&apos;can not be triggered by client&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendPayAmountToTasker({ from: client })
+            .then(() =&gt; done(&apos;e&apos;))
+            .catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;can not be triggered by tasker&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendPayAmountToTasker({ from: tasker })
+            .then(() =&gt; done(&apos;e&apos;))
+            .catch(() =&gt; done())
+        })()
+      })
+
+      it(&apos;can not be triggered by unknown account&apos;, done =&gt; {
+        (async () =&gt; {
+          const deployedContract = await OddjobPayContract.deployed()
+
+          deployedContract.sendPayAmountToTasker({ from: unknownAccount })
+            .then(() =&gt; done(&apos;e&apos;))
+            .catch(() =&gt; done())
+        })()
+      })
+    })
+
+    it(&apos;nullifies pay amount&apos;, async () =&gt; {
+      const deployedContract = await OddjobPayContract.new(
+        client, tasker, { from: deployer }
+      )
+
+      await deployedContract.sendTransaction({
+        from: client, value: web3.toWei(5, &apos;ether&apos;)
+      })
+
+      const payAmountWeiBefore = await deployedContract.payAmount()
+      const payAmountBefore = web3.fromWei(payAmountWeiBefore, &apos;ether&apos;)
+
+      await deployedContract.sendPayAmountToTasker({ from: deployer })
+
+      const payAmountWeiAfter = await deployedContract.payAmount()
+      const payAmountAfter = web3.fromWei(payAmountWeiAfter, &apos;ether&apos;)
+
+      expect(payAmountAfter - payAmountBefore).to.equal(-5)
+      expect(payAmountAfter.toNumber()).to.equal(0)
+    })
+  })
+})
+</code></pre><p>Now add this logic to the smart contract itself: introduce a deployer and allow it to transfer money to a tasker. The full smart contract looks like this:</p>
+
+<pre><code>contract OddjobPayContract {
+  address public deployer;
+
+  address public client;
+  address public tasker;
+
+  uint256 public payAmount;
+
+  constructor (address _client, address _tasker) public {
+    deployer = msg.sender;
+
+    client = _client;
+    tasker = _tasker;
+
+    payAmount = 0;
+  }
+
+  function () public payable {
+    require(client == msg.sender);
+    payAmount += msg.value;
+  }
+
+  function sendPayAmountToTasker() public {
+    require(deployer == msg.sender);
+
+    // transfer pay amount to tasker
+    tasker.transfer(payAmount);
+
+    // nullify pay amount manually
+    payAmount = 0;
+  }
+}
+</code></pre><p></p><h3 id="run-a-deployment-script">Run a deployment script</h3><p></p>
+<pre><code>const Web3 = require(&apos;web3&apos;)
+const contract = require(&apos;truffle-contract&apos;)
+const SmartContract = contract(require(&apos;./build/contracts/OddjobPayContract&apos;))
+
+const deployer = &apos;0x2Af1552C6b02a1C8eE6B8A9175867198EE7DeCA1&apos;
+const client   = &apos;0x4baB642a718738504871e4e9399C8F103aE0A23E&apos;
+const tasker   = &apos;0xAcF1006EA19f9ed5b276204036010687C1A79683&apos;
+
+const web3Provider = new Web3.providers.HttpProvider(
+  &apos;http://10.10.11.75:8545&apos; // address of the Parity node
+)
+
+const web3 = new Web3(web3Provider)
+
+web3.eth.getAccounts(error =&gt; {
+  if (error) {
+    throw new Error(`
+      Error while fetching accounts from RPC!
+      Check RPC address! The problem may be there!
+    `)
+  }
+})
+
+const fetchBalanceByAddress = async address =&gt; {
+  return new Promise(resolve =&gt; {
+    web3.eth.getBalance(address, (_, balance) =&gt; {
+      resolve(web3.fromWei(balance, &apos;ether&apos;).toString())
+    })
+  })
+}
+
+const printBalancesToConsole = async () =&gt; {
+  const deployerBalance = await fetchBalanceByAddress(deployer)
+  const clientBalance   = await fetchBalanceByAddress(client)
+  const taskerBalance   = await fetchBalanceByAddress(tasker)
+
+  console.log(`Deployer: ${deployerBalance}; Client: ${clientBalance}; Tasker: ${taskerBalance}`)
+}
+
+const run = async () =&gt; {
+  await printBalancesToConsole()
+
+  SmartContract.setProvider(web3Provider)
+
+  const smartContract = await SmartContract.new(
+    client, tasker, { gas: 1000000, from: deployer }
+  )
+
+  await printBalancesToConsole()
+
+  await smartContract.sendTransaction({ from: client, value: web3.toWei(0.1, &apos;ether&apos;) })
+
+  await printBalancesToConsole()
+
+  await smartContract.sendPayAmountToTasker({ from: deployer })
+
+  await printBalancesToConsole()
+}
+
+run()
+</code></pre><p></p><h3 id="execute-your-smart-contract">Execute your smart contract</h3><p></p>
+<p></p><p>Once your smart contract is deployed, you can execute it. </p><p></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="program.html" class="navigation navigation-prev " aria-label="Previous page: Contract Program 1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../part2/applications.html" class="navigation navigation-next " aria-label="Next page: Applications of Smart Contract">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Contract Program 2","level":"1.4.5","depth":2,"next":{"title":"Applications of Smart Contract","level":"1.5","depth":1,"path":"part2/applications.md","ref":"part2/applications.md","articles":[]},"previous":{"title":"Contract Program 1","level":"1.4.4","depth":2,"path":"part6/program.md","ref":"part6/program.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part6/program2.md","mtime":"2018-10-19T09:37:01.606Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-22T05:03:04.097Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
